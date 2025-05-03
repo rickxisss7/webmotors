@@ -1,0 +1,95 @@
+@media (min-width: 50px) and (max-width: 768px) {
+
+.menu2 {
+display: none;
+}
+
+.conteudo2 {
+width: 280px;
+
+}
+
+header {
+
+}
+
+.menu3 {
+transform: translateY(20px);
+}
+
+.c1 a {
+font-size: 13px;
+}
+
+.c2 h2 {
+font-size: 12px;
+}
+
+.c3 h1 {
+text-decoration: none;
+color: white;
+background-color: #e11138;
+padding: 5px;
+border-radius: 5px;
+font-size: 15px;
+width: 210px;
+font-family: "poppins", Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+.c3  {
+    display: flex;
+    justify-self: center;
+    transform: translateY(-150px);
+    margin-left: 100px;
+    
+
+}
+
+.princ-cnt4 {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.princ-menu4 {
+margin-left: 50px;
+
+}
+
+.princ-menu3 {
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.princ-cnt5 {
+justify-items: center;
+
+}
+
+.conteudo5 {
+    display: flex;
+flex-direction: column;
+}
+
+/* hovers */
+
+.conteudo4:hover {
+transform: translateY(0);
+}
+
+.cnt5:hover {
+background-image: url(../img/rad.jpg);
+cursor: pointer;
+}
+
+ .c1 a:hover {
+ padding: 0;
+ background-color: white;
+ color: #e11138;
+ transition: 0.3s;
+}
+
+}
